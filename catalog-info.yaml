@@ -6,10 +6,9 @@ metadata:
   description: team-one-api-oh
   annotations:
     argocd.argoproj.io/synchronization: Exclude
-    argocd/app-name: api-oh
-    argocd/namespace: team-one-gitops
+    argocd/app-selector: team-one-gitops=team-one-dev
     backstage.io/kubernetes-id: api-oh
-    backstage.io/kubernetes-label-selector: 'app=api-oh'
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/instance=team-one-dev
 spec:
   type: resources
   lifecycle: production
