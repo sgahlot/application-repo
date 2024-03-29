@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: api-oh
-  description: team-one: api-oh
+  description: team-one-  api-oh
   annotations:
     argocd.argoproj.io/synchronization: Exclude
     argocd/app-name: api-oh
