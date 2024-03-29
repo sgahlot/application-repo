@@ -9,7 +9,7 @@ metadata:
     argocd/app-name: api-oh
     argocd/namespace: team-one-gitops
     backstage.io/kubernetes-id: api-oh
-    backstage.io/kubernetes-label-selector': 'app=api-oh'
+    backstage.io/kubernetes-label-selector: 'app=api-oh'
 spec:
   type: resources
   lifecycle: production
