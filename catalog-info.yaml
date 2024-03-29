@@ -13,4 +13,4 @@ metadata:
 spec:
   type: resources
   lifecycle: production
-  owner: 
+  owner: ops
