@@ -8,7 +8,6 @@ metadata:
     argocd/app-namespace: team-a-gitops
     argocd/app-selector: "team-a-gitops=app-uno"
     backstage.io/kubernetes-id: app-uno
-    backstage.io/kubernetes-namespace: team-a-gitops
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=app-uno'
 spec:
   type: resources
