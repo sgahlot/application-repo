@@ -5,7 +5,6 @@ metadata:
   name: app-uno
   description: "team-a: app-uno"
   annotations:
-    argocd.argoproj.io/synchronization: Exclude
     argocd/app-namespace: team-a-gitops
     argocd/app-selector: "team-a-gitops=app-uno"
     backstage.io/kubernetes-id: app-uno
