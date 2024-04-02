@@ -1,5 +1,5 @@
 # More possible license content here
-FROM node:nodejs-21
+FROM node:nodejs-17
 
 #create app directory
 WORKDIR /usr/src/app
