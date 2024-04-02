@@ -5,8 +5,8 @@ metadata:
   name: app-uno
   description: "team-a: app-uno"
   annotations:
-    argocd/app-namespace: team-a-gitops
     argocd/app-selector: "team-a-gitops=app-uno"
+    argocd/app-namespace: team-a-gitops
     backstage.io/kubernetes-id: app-uno
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=app-uno'
 spec:
