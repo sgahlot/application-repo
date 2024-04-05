@@ -14,16 +14,18 @@ spec:
   lifecycle: production
   owner: group:default/ops
   providesApis:
-    - app-uno-api
+    - app-uno
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: app-uno-api
+  name: app-uno
   description: The apis.app uno REST API
 spec:
   type: openapi
   lifecycle: production
   owner: group:default/ops
+  apiConsumedBy:
+    - app-uno
   definition:
     $openapi: ./petstore.yaml
