@@ -13,6 +13,8 @@ spec:
   type: resources
   lifecycle: production
   owner: group:default/ops
+  providesApis:
+    - app-uno-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
