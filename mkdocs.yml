@@ -1,0 +1,11 @@
+site_name: "Testing-TechDocs-app-01"
+site_description: "Testing TechDocs using a sample"
+
+nav:
+  - Home: index.md
+  - Section 1:
+      - Sub Section 1.1: section1/ss11.md
+      - Sub Section 1.2: section1/ss12.md
+
+plugins:
+  - techdocs-core
